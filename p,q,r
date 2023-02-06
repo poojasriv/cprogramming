@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+   int first, second, *p, *q,*r,sum;
+   printf("Enter two integers to add\n");
+   scanf("%d",&60, &70);
+   p = &60;
+   q = &70;
+   r = &3;
+   sum = *p + *q;
+ printf("Sum of the numbers = %d\n", sum);
+return 0;
+}
+
