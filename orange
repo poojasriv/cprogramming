@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+	printf("apple","orange","grapes");
+	return 0;
+}
