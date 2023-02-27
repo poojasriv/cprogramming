@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+     int n,m,i,x;
+     printf("enter the n value :");
+     scanf("%d",&n);
+     printf("enter the m value :");
+     scanf("%d",&m);
+     printf("display the even number in b/w the %d and %d",n,m);
+     for(i=n;i<=m;i++)
+      {
+	  x=i%2;
+      if(x==0)
+      printf("\n%d",i);
+  }
+  printf("\ndisply the odd numbers in b/w the %d and %d ",n,m);
+  for(i=n;i<=m;i++){
+  x=i%2;
+  if(x==1)
+  printf("\n%d",i);
+}
+	return 0;
+}
