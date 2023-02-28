@@ -1,0 +1,18 @@
+#include <stdio.h>    
+int main()
+{
+    int arr[] = {11, 12, 13, 14, 15};
+    // Get total number of elements in array
+    int size = sizeof(arr) / sizeof(arr[0]);
+    if(size > 0)
+    {
+        // Get last element of array
+        int lastElem = arr[size - 1];
+        printf("Last Element of Array is: %d \n", lastElem);
+    }
+    else
+    {
+        printf("Array is Empty \n");
+    }
+    return 0;
+}
